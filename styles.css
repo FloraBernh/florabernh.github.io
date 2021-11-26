@@ -208,7 +208,7 @@ p {
   position: fixed;
   top: 66px;
   left: 0;
-  bottom: 0px;
+  bottom: 0;
 
   overflow-y: scroll;
 }
@@ -226,7 +226,6 @@ p {
 
 .project-box-title {
   border-left: 1px solid #2f2f2f;
-  border-right: 1px solid #2f2f2f;
 
   background-color: #f8f6f1;
   display: flex;
@@ -235,13 +234,17 @@ p {
 
 .project-box-about {
   padding: 1.3rem;
-  border: 1px solid #2f2f2f;
+  border-top: 1px solid #2f2f2f;
+  border-left: 1px solid #2f2f2f;
+  border-bottom: 1px solid #2f2f2f;
   background-color: #f8f6f1;
 }
 
 .project-box-content {
   border-right: 1px solid #2f2f2f;
   border-bottom: 1px solid #2f2f2f;
+  border-left: 1px solid #2f2f2f;
+
   background-color: #f8f6f1;
 }
 
