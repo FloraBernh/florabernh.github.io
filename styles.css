@@ -244,8 +244,6 @@ p {
   border-right: 1px solid #2f2f2f;
   border-bottom: 1px solid #2f2f2f;
   border-left: 1px solid #2f2f2f;
-
-  background-color: #f8f6f1;
 }
 
 .img-size {
@@ -256,11 +254,20 @@ p {
   border-bottom: 1px solid #2f2f2f;
 }
 
+.border-left {
+  border-left: 1px solid #2f2f2f;
+}
+
+.border-right {
+  border-right: 1px solid #2f2f2f;
+}
+
 .about-h1 {
   top: 40px;
-  margin: 90px 20px 20px;
+  margin: 20px 20px;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .vaxi1 {
@@ -285,4 +292,85 @@ p {
   background-color: #f4fbfa;
   width: auto;
   height: auto;
+}
+
+.img-size-kyl {
+  width: 100%;
+  height: auto;
+}
+
+.img-size-bild-kyl {
+  width: 100%;
+  padding: 0;
+}
+
+.name-flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 0px 70px;
+}
+
+.flower-rotate {
+  width: 15%;
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.box-about-page {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.box-about1 {
+  border: 1px solid #2f2f2f;
+  padding: 1.5rem;
+}
+
+.box-about2 {
+  border: 1px solid #2f2f2f;
+  padding: 1.5rem;
+}
+
+.box-about-right {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.box-about-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 45vw;
+}
+
+.box-media {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #2f2f2f;
+}
+
+.margin-icon {
+  margin: 1rem 0 1rem 0;
+}
+
+.center-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.box-skills {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
 }
