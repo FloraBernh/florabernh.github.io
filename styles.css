@@ -1,3 +1,5 @@
+/* Inte klasser */
+
 html {
   font-size: 16px;
 }
@@ -14,6 +16,10 @@ a {
   font-weight: 900;
   color: #2f2f2f;
   text-decoration: none;
+}
+
+a:hover {
+  background: #fce8e8;
 }
 
 h1 {
@@ -38,9 +44,14 @@ h4 {
 }
 
 p {
-  font-weight: 300;
+  font-family: rooney;
+  line-height: 1.6;
+  font-weight: 400;
+  font-style: normal;
 }
 
+/* Klasser */
+/* Menyn */
 .menu {
   display: flex;
   justify-content: space-between;
@@ -52,11 +63,6 @@ p {
   background-color: #f8f6f1;
   padding: 20px 80px 20px 80px;
   font-size: 20px;
-}
-
-.align-center {
-  display: flex;
-  align-items: center;
 }
 
 .menu-box2 {
@@ -76,111 +82,6 @@ p {
   justify-content: flex-end;
 }
 
-.startbild {
-  background-image: url("img/SVG/Resurs\ 16.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  height: 100vh;
-  background-position: center;
-  border-bottom: 1px solid #2f2f2f;
-}
-/* .box-welcome {
-  display: flex;
-  justify-content: center;
-  border: 1px solid #000;
-}
-
-.welcome-text {
-  font-size: 80px;
-  margin: 8px;
-  font-weight: 900;
-  margin: 40px;
-  color: #f8f6f1; */
-
-/* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-} */
-
-.h2-left {
-  max-width: 60px;
-  margin: 20px 0 20px 40px;
-}
-
-.h2-right {
-  max-width: 60px;
-  margin: 20px 40px 20px 0;
-}
-
-.box-rubrik {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #000;
-  border-right: 1px solid #000;
-  border-left: 1px solid #000;
-}
-
-.box1 {
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-  min-height: 300px;
-  min-width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.box2 {
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
-  min-height: 100px;
-  min-width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box3 {
-  border: 1px solid #000;
-  max-height: 692px;
-}
-
-.namn {
-  font-size: 80px;
-  margin: 8px;
-  font-weight: 900;
-}
-
-.roll {
-  font-size: 20px;
-  margin: 8px;
-  font-weight: 700;
-}
-
-.text {
-  margin: 20px;
-  font-weight: 300;
-}
-
-.bild-box {
-  border-bottom: 1px solid #000;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-}
-
-.bild-box {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.footer {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  border: 1px solid #2f2f2f;
-}
-
 .menu-box4 {
   border-right: 1px solid #2f2f2f;
   background-color: #f8f6f1;
@@ -195,10 +96,75 @@ p {
   background-color: #f8f6f1;
 }
 
+/* övrigt */
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #2f2f2f;
+}
+
+.border-left {
+  border-left: 1px solid #2f2f2f;
+}
+
+.border-right {
+  border-right: 1px solid #2f2f2f;
+}
+
+/* Startbild */
+
+.startbild {
+  background-image: url("img/SVG/blommor\ start.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  background-position: center;
+  border-bottom: 1px solid #2f2f2f;
+  padding-top: 3rem;
+}
+
+/* projektdelen startsida */
+
+.box-rubrik {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.h2-left {
+  padding: 1.2rem 0 1.2rem 2.4rem;
+  margin: 0;
+}
+
+.h2-right {
+  padding: 1.2rem 2.4rem 1.2rem 0;
+  margin: 0;
+}
+
+.bild-box {
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.bild-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .flex-container {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
 }
+
+/* projektsidan */
 
 .box-left {
   display: flex;
@@ -250,18 +216,6 @@ p {
   width: 100%;
 }
 
-.border-bottom {
-  border-bottom: 1px solid #2f2f2f;
-}
-
-.border-left {
-  border-left: 1px solid #2f2f2f;
-}
-
-.border-right {
-  border-right: 1px solid #2f2f2f;
-}
-
 .about-h1 {
   top: 40px;
   margin: 20px 20px;
@@ -304,16 +258,23 @@ p {
   padding: 0;
 }
 
+.box-next {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* aboutsidan */
 .name-flower {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 120px 0px 70px;
+  padding: 120px 0 70px;
 }
 
 .flower-rotate {
   width: 15%;
-  animation: rotation 8s infinite linear;
+  animation: rotation 5s infinite linear;
 }
 
 @keyframes rotation {
@@ -329,11 +290,20 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .box-about1 {
   border: 1px solid #2f2f2f;
   padding: 1.5rem;
+}
+
+.box-about1-1 {
+  border: 1px solid #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 1rem;
 }
 
 .box-about2 {
@@ -345,6 +315,7 @@ p {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  max-width: 55vw;
 }
 
 .box-about-left {
@@ -373,4 +344,87 @@ p {
   display: flex;
   justify-content: flex-start;
   gap: 3rem;
+}
+
+/* footer */
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 40vw;
+}
+
+.footer-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-box {
+  border-right: 1px solid #2f2f2f;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.footer-box-last {
+  border-right: 1px solid #2f2f2f;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #2f2f2f;
+}
+
+@media (max-width: 810px) {
+  h2 {
+    font-size: 1.618rem;
+    font-weight: 900;
+  }
+
+  .h2-left {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .h2-right {
+    padding: 1rem;
+    margin: 0;
+  }
+  .box-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    min-width: initial;
+    position: initial;
+    top: 100px;
+    left: initial;
+    bottom: initial;
+
+    overflow-y: initial;
+  }
+
+  .box-right {
+    display: flex;
+    flex-direction: column;
+    position: initial;
+    top: 66px;
+    left: 375px;
+    bottom: 0px;
+
+    overflow-y: scroll;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
