@@ -157,11 +157,13 @@ p {
   border-bottom: 1px solid #000;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
-}
-
-.bild-box {
+  margin: auto;
   display: flex;
   justify-content: space-evenly;
+}
+
+.bild-1 {
+  width: 20%;
 }
 
 .flex-container {
@@ -173,7 +175,7 @@ p {
 
 .flex-container-project {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: auto;
 }
 
