@@ -8,10 +8,9 @@ body {
   font-family: museo-sans, sans-serif;
   color: #2f2f2f;
   background-color: #f8f6f1;
-  display: flex;
-  justify-content: center;
-
-  margin: 0 auto;
+  width: 100vw;
+  max-width: 1400px;
+  margin: auto;
 }
 
 a {
@@ -54,16 +53,13 @@ p {
 
 /* Klasser */
 
-.main {
-  width: 1400px;
-  overflow: hidden;
-}
-
 /* Menyn */
 .menu {
   display: flex;
   justify-content: space-between;
   border: 1px solid #2f2f2f;
+  width: 100vw;
+  max-width: 1398px;
 }
 
 .menu-box1 {
@@ -99,8 +95,8 @@ p {
 
 .sticky {
   position: fixed;
-  width: 100%;
-  max-width: 1400px;
+  /* width: 100%;
+  max-width: 1400px; */
   top: 0;
   background-color: #f8f6f1;
 }
@@ -175,14 +171,20 @@ p {
 
 /* projektsidan */
 
+.flex-container-project {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
 .box-left {
   display: flex;
   flex-direction: column;
-  max-width: 375px;
-  min-width: 375px;
+  width: 375px;
+
   position: fixed;
   top: 66px;
-  left: 0;
+
   bottom: 0;
 
   overflow-y: scroll;
@@ -193,8 +195,8 @@ p {
   flex-direction: column;
   position: fixed;
   top: 66px;
-  left: 375px;
   bottom: 0px;
+  max-width: 1025px;
 
   overflow-y: scroll;
 }
