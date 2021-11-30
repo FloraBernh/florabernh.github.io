@@ -8,6 +8,8 @@ body {
   font-family: museo-sans, sans-serif;
   color: #2f2f2f;
   background-color: #f8f6f1;
+  display: flex;
+  justify-content: center;
 
   margin: 0 auto;
 }
@@ -51,6 +53,12 @@ p {
 }
 
 /* Klasser */
+
+.main {
+  width: 1400px;
+  overflow: hidden;
+}
+
 /* Menyn */
 .menu {
   display: flex;
@@ -92,6 +100,7 @@ p {
 .sticky {
   position: fixed;
   width: 100%;
+  max-width: 1400px;
   top: 0;
   background-color: #f8f6f1;
 }
@@ -368,6 +377,15 @@ p {
   margin: 0;
 }
 
+.footer-box-hello {
+  border-right: 1px solid #2f2f2f;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 .footer-box-last {
   border-right: 1px solid #2f2f2f;
   padding: 20px;
@@ -426,5 +444,53 @@ p {
   .flex-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: center;
+    border-bottom: 1px solid #2f2f2f;
+  }
+  .footer-right {
+    display: flex;
+    justify-content: space-between;
+    max-width: 810px;
+  }
+
+  .footer-left {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer-box {
+    border-top: 1px solid #2f2f2f;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 22.1vw;
+  }
+
+  .footer-box-hello {
+    border-right: 1px solid #2f2f2f;
+    border-left: 1px solid #2f2f2f;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 94.45vw;
+  }
+
+  .footer-box-last {
+    border-top: 1px solid #2f2f2f;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
   }
 }
