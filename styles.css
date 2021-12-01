@@ -177,6 +177,7 @@ p {
   display: flex;
   flex-direction: row;
   margin: auto;
+  justify-content: flex-end;
 }
 
 .box-left {
@@ -227,6 +228,7 @@ p {
 
 .img-size {
   width: 100%;
+  display: block;
 }
 
 .about-h1 {
@@ -264,6 +266,7 @@ p {
 .img-size-kyl {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .img-size-bild-kyl {
@@ -456,6 +459,8 @@ p {
     justify-content: initial;
     align-items: center;
     border-bottom: 1px solid #2f2f2f;
+    width: 100%;
+    max-width: 1400px;
   }
   .footer-right {
     display: flex;
