@@ -161,6 +161,7 @@ p {
   margin: auto;
   display: flex;
   justify-content: space-evenly;
+  padding: 4rem 1rem;
 }
 
 .bild-1 {
@@ -284,10 +285,34 @@ p {
   padding: 0;
 }
 
+.box-next-previous {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0.5rem;
+  flex-direction: row-reverse;
+  align-items: center;
+}
 .box-next {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 2rem;
+}
+
+.pil {
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.pil-box-right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+}
+
+.pil-box-left {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* aboutsidan */
@@ -426,6 +451,10 @@ p {
     font-size: 1.618rem;
     font-weight: 900;
   }
+  .h2-stor {
+    font-size: 2.618rem;
+    font-weight: 900;
+  }
 
   .h2-left {
     padding: 1rem;
@@ -435,6 +464,10 @@ p {
   .h2-right {
     padding: 1rem;
     margin: 0;
+  }
+
+  .bild-box {
+    padding: 3rem 1rem;
   }
   .box-left {
     display: flex;
@@ -456,6 +489,14 @@ p {
     overflow-y: scroll;
   }
 
+  .project-box-about {
+    border: 1px solid #2f2f2f;
+  }
+
+  .project-box-title {
+    border-right: 1px solid #2f2f2f;
+  }
+
   .flex-container {
     display: flex;
     flex-direction: column;
@@ -469,6 +510,8 @@ p {
     border-bottom: 1px solid #2f2f2f;
     width: 100%;
     max-width: 1400px;
+    border-left: 0px;
+    border-top: 0px;
   }
   .footer-right {
     display: flex;
