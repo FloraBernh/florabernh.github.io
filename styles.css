@@ -37,6 +37,7 @@ h2 {
 h3 {
   font-size: 1.618rem;
   font-weight: 900;
+  margin: 1rem 0;
 }
 
 h4 {
@@ -232,14 +233,30 @@ p {
 }
 
 .project-box-content {
-  border-right: 1px solid #2f2f2f;
   border-bottom: 1px solid #2f2f2f;
   border-left: 1px solid #2f2f2f;
+  border-right: 1px solid #2f2f2f;
+}
+
+.vid-start {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  width: 100%;
 }
 
 .img-size {
   width: 100%;
   display: block;
+}
+
+.text-stylesheet {
+  background-color: #f8f6f1;
+  display: block;
+  padding: 8rem 5rem;
+  margin: 0;
+  line-height: 1.3;
+  letter-spacing: 1;
 }
 
 .about-h1 {
