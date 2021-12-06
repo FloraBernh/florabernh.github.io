@@ -50,7 +50,7 @@ p {
   line-height: 1.6;
   font-weight: 400;
   font-style: normal;
-  margin: 2px;
+  margin: 0.125rem;
 }
 
 /* Klasser */
@@ -67,20 +67,20 @@ p {
 .menu-box1 {
   border-right: 1px solid #2f2f2f;
   background-color: #f8f6f1;
-  padding: 20px 80px 20px 80px;
-  font-size: 20px;
+  padding: 1.25rem 5rem 1.25rem 5rem;
+  font-size: 1.25rem;
 }
 
 .menu-box2 {
   border-right: 1px solid #2f2f2f;
   border-left: 1px solid #2f2f2f;
   background-color: #f8f6f1;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .menu-box3 {
   background-color: #f8f6f1;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .menu-right {
@@ -91,14 +91,12 @@ p {
 .menu-box4 {
   border-right: 1px solid #2f2f2f;
   background-color: #f8f6f1;
-  padding: 20px;
+  padding: 1.25rem;
   margin: 0;
 }
 
 .sticky {
   position: fixed;
-  /* width: 100%;
-  max-width: 1400px; */
   top: 0;
   background-color: #f8f6f1;
   z-index: 10;
@@ -198,7 +196,7 @@ p {
   max-width: 375px;
   width: 28%;
   position: fixed;
-  top: 66px;
+  top: 4.125rem;
   bottom: 0;
   overflow-y: scroll;
 }
@@ -207,7 +205,7 @@ p {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 66px;
+  top: 4.125rem;
   bottom: 0px;
   max-width: 1025px;
   width: 73%;
@@ -264,8 +262,8 @@ p {
 }
 
 .about-h1 {
-  top: 40px;
-  margin: 20px 20px;
+  top: 2.5rem;
+  margin: 1.25rem;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -354,7 +352,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 120px 0 70px;
+  padding: 7.5rem 0 4.375rem;
 }
 
 .flower-rotate {
@@ -445,7 +443,7 @@ p {
 
 .footer-box {
   border-right: 1px solid #2f2f2f;
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -454,7 +452,7 @@ p {
 
 .footer-box-hello {
   border-right: 1px solid #2f2f2f;
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,11 +461,11 @@ p {
 
 .footer-box-last {
   border-right: 1px solid #2f2f2f;
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 100px;
+  min-width: 6.25rem;
 }
 
 .footer {
@@ -498,7 +496,7 @@ p {
   }
 
   .menu-box1 {
-    padding: 20px 40px 20px 40px;
+    padding: 1.25rem 2.5rem 1.25rem 2.5rem;
   }
 
   .bild-box {
@@ -508,7 +506,7 @@ p {
     display: flex;
     flex-direction: column;
     position: initial;
-    top: 100px;
+    top: 6.25rem;
     max-width: 810px;
     width: 100%;
     border-right: 1px solid #2f2f2f;
@@ -530,7 +528,7 @@ p {
 
   .project-box-title {
     border-right: 1px solid #2f2f2f;
-    padding-top: 140px;
+    padding-top: 8.75rem;
   }
 
   .flex-container {
@@ -599,7 +597,7 @@ p {
 
   .footer-box {
     border-top: 1px solid #2f2f2f;
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -610,7 +608,7 @@ p {
   .footer-box-hello {
     border-right: 1px solid #2f2f2f;
     border-left: 1px solid #2f2f2f;
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -620,10 +618,10 @@ p {
 
   .footer-box-last {
     border-top: 1px solid #2f2f2f;
-    padding: 20px;
+    padding: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100px;
+    min-width: 6.25rem;
   }
 }
